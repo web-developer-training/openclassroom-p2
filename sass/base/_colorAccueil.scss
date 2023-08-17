@@ -1,0 +1,63 @@
+$colour-primary: #FF79DA;
+$colour-secondary: #eaeaea;
+$colour-accent: #9356DC;
+$colour-bleu: #99E2D0;
+$colour-invalid: #2c2c2c;
+$colour-white: rgb(255, 255, 255);
+
+.container1__localisation{
+    background: $colour-secondary;
+}
+.container1{
+    background: #f6f6f6;
+}
+.container3{
+    background: #f6f6f6;
+    padding-bottom: 70px;
+}
+.bouton{
+    background-image: linear-gradient(0deg, #9356DC , #FF79DA);
+    &:hover{
+        background-image: linear-gradient(0deg, #a276d8, #faa3e1);
+    }
+}
+.chiffre{
+    background: $colour-accent ;
+    color: $colour-white;
+}
+
+.bloc-footer{
+    background: $colour-invalid ;
+}
+.titre-text{
+    background: #99E2D0;
+    color: #0a9f77;
+
+}
+.text-gras{
+    font-weight: bold;
+
+}
+.fonctionnement{
+    
+    background: #f6f6f6;
+
+        &:hover {
+            background: rgb(247, 241, 253) ;
+    }
+}
+.loader{
+
+    background-image: linear-gradient(to bottom, $colour-secondary,$colour-bleu );
+    .lettre{
+        color: $colour-bleu;
+    }
+}
+a{
+    color: $colour-white; 
+    text-decoration: none;
+    
+}
+.container1__localisation-p {
+    color:gray;
+}

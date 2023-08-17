@@ -1,0 +1,220 @@
+
+@keyframes loader {
+    0% {
+      opacity: 1;
+      display: block;
+      transform: scale(1); }
+    50% {
+      opacity: 1;
+      display: block;
+      transform: scale(1); }
+    99% {
+      opacity: 0;
+      display: block;
+      transform: scale(1); }
+    100% {
+      opacity: 0;
+      display: none;
+      transform: scale(0); } }
+  @keyframes fill {
+    0% {
+      opacity: 0; }
+    50% {
+      opacity: 0.5; }
+    100% {
+      opacity: 1; } }
+  @keyframes flash {
+    0% {
+      color: #99E2D0;
+      text-shadow: 0 0 7px #99E2D0; }
+    70% {
+      color: #9356DC;
+      text-shadow: none; }
+    100% {
+      color: #99E2D0;
+      text-shadow: 0 0 7px #99E2D0; } }
+  
+   
+    
+  
+    .loader {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-size: 100%;
+      background-repeat: no-repeat;
+     
+      z-index: 5;
+      position: fixed;
+      animation: loader 2s ease-in;
+      transform: scale(0); }
+  
+    .lettre {
+      
+      font-size: 80px;
+      letter-spacing: 10px;
+      margin-bottom: 0px;
+      animation: flash 1.2s linear infinite;
+      
+       }
+  
+    .lettre:nth-child(1) {
+      animation-delay: 0.1s; }
+  
+    .lettre:nth-child(2) {
+      animation-delay: 0.2s; }
+  
+    .lettre:nth-child(3) {
+      animation-delay: 0.3s; }
+  
+    .lettre:nth-child(4) {
+      animation-delay: 0.4s; }
+  
+    .lettre:nth-child(5) {
+      animation-delay: 0.5s; }
+  
+    .lettre:nth-child(6) {
+      animation-delay: 0.6s; }
+  
+    .lettre:nth-child(7) {
+      animation-delay: 0.7s; }
+  
+    .lettre:nth-child(8) {
+      animation-delay: 0.8s; }
+    
+    
+    
+    @media screen and (min-width: 430px) and (max-width:770px){
+        .loader {
+            
+          width: 100%;
+          height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+            background-size: 100%;
+            background-repeat: no-repeat;
+            
+            z-index: 5;
+            position: fixed;
+            animation: loader 2s ease-in;
+            transform: scale(0); }
+        
+          .lettre {
+            color: #99E2D0;
+            font-size: 50px;
+            letter-spacing: 10px;
+            margin-bottom: 0px;
+            animation: flash 1.2s linear infinite;
+           
+             }
+        
+          .lettre:nth-child(1) {
+            animation-delay: 0.1s; }
+        
+          .lettre:nth-child(2) {
+            animation-delay: 0.2s; }
+        
+          .lettre:nth-child(3) {
+            animation-delay: 0.3s; }
+        
+          .lettre:nth-child(4) {
+            animation-delay: 0.4s; }
+        
+          .lettre:nth-child(5) {
+            animation-delay: 0.5s; }
+        
+          .lettre:nth-child(6) {
+            animation-delay: 0.6s; }
+        
+          .lettre:nth-child(7) {
+            animation-delay: 0.7s; }
+        
+          .lettre:nth-child(8) {
+            animation-delay: 0.8s; }
+
+
+    }
+    @media screen and (min-width: 310px) and (max-width:430px){
+      .loader {
+          
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      
+          background-size: 100%;
+          background-repeat: no-repeat;
+          
+          z-index: 5;
+          position: fixed;
+          animation: loader 2s ease-in;
+          transform: scale(0); }
+      
+        .lettre {
+          color: #99E2D0;
+          font-size: 30px;
+          letter-spacing: 10px;
+          margin-bottom: 0px;
+          animation: flash 1.2s linear infinite;
+           }
+      
+        .lettre:nth-child(1) {
+          animation-delay: 0.1s; }
+      
+        .lettre:nth-child(2) {
+          animation-delay: 0.2s; }
+      
+        .lettre:nth-child(3) {
+          animation-delay: 0.3s; }
+      
+        .lettre:nth-child(4) {
+          animation-delay: 0.4s; }
+      
+        .lettre:nth-child(5) {
+          animation-delay: 0.5s; }
+      
+        .lettre:nth-child(6) {
+          animation-delay: 0.6s; }
+      
+        .lettre:nth-child(7) {
+          animation-delay: 0.7s; }
+      
+        .lettre:nth-child(8) {
+          animation-delay: 0.8s; }
+
+
+  }
+
+
+
+
+  
+
+
+
+    /*
+    $prog-loader-dur: 500ms;
+$prog-loader-delay: 1000ms;
+$loader-delay: $prog-loader-dur + $prog-loader-delay;
+.loader {
+    animation: loader 2000ms $loader-delay;
+}
+@keyframes icon-loader{
+0% {
+     opacity: 0;
+      transform: rotateX(360deg);
+     
+}
+100% {
+   opacity: 1;
+      transform: rotate(0);
+      
+    }
+}
+*/
